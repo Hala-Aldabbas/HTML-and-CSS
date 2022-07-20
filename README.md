@@ -1,2 +1,3 @@
-# Task_HTML
+# HTML_Tasks
+
 8 HTML Tasks 
