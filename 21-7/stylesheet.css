@@ -1,0 +1,120 @@
+.hor{
+  list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    background-color: #008000;
+    padding-right: 80px;
+
+
+}
+.ver{
+  display: block;
+  padding: 10px;
+  background-color: #008000; 
+  list-style-type: none;
+  width: 75px;
+ margin-left: 250px;
+ margin-top: -20px;
+}
+.t-border{
+  border: 1px solid black;
+  width: 90px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  box-shadow: 2px 2px gray;
+}
+table{
+  border-spacing: 5px;
+}
+.tbox{
+width: 90px;
+height: 10px;
+border-radius: 3px;
+border: 1px solid black;
+box-shadow: 2px 2px gray;  
+
+}
+td{
+  margin: 10px; 
+
+}
+.num{
+  display: inline-block
+}
+.odd{
+  display: inline-block;
+  border: 1px solid black;
+  background-color: red;
+  width: 40px;
+  padding: 5px;
+  color: white;
+}
+.even{
+  display: none;
+  border: 1px solid black;
+  background-color: red;
+  width: 40px;
+}
+.first {
+  width: 230px;
+  height: 230px;
+  border: 1px solid none;
+ background-color: #008000;
+ color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+p{
+ text-align: center;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);;
+}
+.second{
+  width: 260px;
+  height: 260px;
+  border: 1px solid none;
+ background-color: yellow;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.third{
+  width: 290px;
+  height: 290px;
+  border: 1px solid none;
+ background-color: #008000;
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.fourth{
+  width: 320px;
+  height: 320px;
+  border: 1px solid none;
+ background-color: yellow;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.fifth{
+  width: 350px;
+  height:350px;
+  border: 1px solid none;
+ background-color: #008000;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}

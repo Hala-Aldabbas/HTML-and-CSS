@@ -1,0 +1,104 @@
+style 
+ ul{
+    list-style-type: none;
+    margin: 0;
+   padding: 10px;
+    background-color: #008000;
+}
+li{
+    display: inline;
+     padding-right: 10px;
+}
+li,a{ text-decoration: none; color: white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: blue;
+
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropbtn {
+    background-color: #008000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #008000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+    
+  code HTML
+  for a dropdown nav
+  <ul>
+  <li>
+      <div class="dropdown">
+          <button class="dropbtn">Home </button>
+          <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+  </li>
+  <li>
+      <div class="dropdown">
+          <button class="dropbtn">About</button>
+          <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+  </li>
+  <li>
+      <div class="dropdown">
+          <button class="dropbtn">Products</button>
+          <div class="dropdown-content">
+              <a href="#">Engineering</a>
+              <a href="#">Telecom</a>
+              <a href="#">Enrrgy</a>
+              <a href="#">Finance</a>
+              <a href="#">Consultancy</a>
+
+          </div>
+      </div>
+  </li>
+  <li>
+      <div class="dropdown">
+          <button class="dropbtn">Services</button>
+          <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+  </li>
+  <li>
+      <div class="dropdown">
+          <button class="dropbtn">Contact</button>
+          <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+  </li>
+</ul>
