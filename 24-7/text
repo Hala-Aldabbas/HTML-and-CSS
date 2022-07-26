@@ -1,0 +1,127 @@
+    <table border="1">
+        <thead>
+            <tr>
+                <th class="main" rowspan="2">Main mode</th>
+                <th class="main" colspan="6">Area of workplace</th>
+            </tr>
+            <tr class="top">
+
+                <th>Central London</th>
+                <th>Rest of Inner London</th>
+                <th>Outer London</th>
+                <th>All London</th>
+                <th>Rest of Great Britain</th>
+                <th>Great Britain</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="top"> Car & Van</td>
+                <td> 48</td>
+                <td> 32</td>
+                <td> 25</td>
+                <td> 29</td>
+                <td> 20</td>
+                <td> 20</td>
+            </tr>
+            <tr>
+                <td class="top"> Motorbike, moped, scooter</td>
+                <td> 48</td>
+                <td> 32</td>
+                <td> 25</td>
+                <td> 29</td>
+                <td> 20</td>
+                <td> 20</td>
+            </tr>
+            <tr>
+                <td class="top"> Bicycle</td>
+                <td> 48</td>
+                <td> 32</td>
+                <td> 25</td>
+                <td> 29</td>
+                <td> 20</td>
+                <td> 20</td>
+            </tr>
+            <tr>
+                <td class="top"> Bus & Coach</td>
+                <td> 48</td>
+                <td> 32</td>
+                <td> 25</td>
+                <td> 29</td>
+                <td> 20</td>
+                <td> 20</td>
+            </tr>
+            <tr>
+                <td class="top"> National Rail</td>
+                <td> 48</td>
+                <td> 32</td>
+                <td> 25</td>
+                <td> 29</td>
+                <td> 20</td>
+                <td> 20</td>
+            </tr>
+            <tr>
+                <td class="top"> Underground, tram, light rail</td>
+                <td> 49</td>
+                <td> 45</td>
+                <td> 37</td>
+                <td> 47</td>
+                <td> 42</td>
+                <td> 46</td>
+            </tr>
+            <tr>
+                <td class="top"> Walk</td>
+                <td> 21</td>
+                <td> 16</td>
+                <td> 13</td>
+                <td> 15</td>
+                <td> 12</td>
+                <td> 13</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="tmode"> All modes</td>
+                <td> 55</td>
+                <td> 39</td>
+                <td> 27</td>
+                <td> 39</td>
+                <td> 20</td>
+                <td> 23</td>
+            </tr>
+        </tfoot>
+    </table>
+ <br>
+ <p>1. Create a table for london Commute using an <b>embedded style sheet</b></p>
+ <p>2. The width of the table is <b>800px</b></p>
+ <p>3. Table title: <b>London Commute</b> </p>
+ <p>4. Color: <b> #b1cc7f</b>, <b>#d8e1c6</b>, <b>#91c4d5</b>, <b>#66a8be</b>,and <b>#d6eaf1</b></p>
+
+
+
+style 
+table{
+    width: 800px;
+}
+.main{
+background-color:#66a8be;
+}
+tbody tr td{   
+    background-color:#91c4d5;
+}
+.top{
+    background-color:#69afc7;
+}
+tbody{
+    background-color:#d6eaf1;
+    }
+.tmode{
+    background-color:  #b1cc7f;
+}
+tfoot tr td{
+    background-color: #d8e1c6;
+}
+p{
+    color: rgb(118, 124, 124);
+}
