@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<style>
+    .container{
+        border: 3px solid none;
+        width: 500px;
+        height: 500px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-rows:.5fr 2fr 1fr ;
+
+    }
+    .b-box{
+        background-color: black;
+        
+    }
+    .o-box{
+        background-color: orange;
+    }
+    .g-box{
+        background-color: green;
+    }
+
+    .inrow{
+        display:grid;
+        grid-template-columns:2fr 1fr ;
+        grid-gap: 10px;
+    }
+    .bl-box{
+        background-color: blue;
+    }
+</style>
+<body>
+    <div class="container">
+       <div class="b-box"></div>
+      <div class="inrow"><div class="o-box"></div>
+       <div class="g-box"></div></div> 
+       <div class="bl-box"></div>
+    </div>
+</body>
+</html>
