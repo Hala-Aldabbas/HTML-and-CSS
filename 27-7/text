@@ -1,0 +1,99 @@
+<style>
+    body{
+     box-sizing: border-box;
+     object-fit: cover;
+     background-color: #f6f6f6;
+    }
+    .container{
+      
+        width: 70%;
+        height: 570px;
+        display: grid;
+        grid-template-columns:2fr 2fr;
+       
+    }
+   .r-col{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+        grid-template-rows: 285px 290px;
+   }
+    .g-box{
+        border: 1px solid none ;
+        background-color: #1bb366;
+background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%239cd7d5' fill-opacity='0.12' fill-rule='evenodd'/%3E%3C/svg%3E");
+        width: 400px;
+    
+       color: white;
+       
+
+    }
+    .b-box{
+        border: 1px solid none ;
+        background-color: #44bae6;
+background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%239cd7d5' fill-opacity='0.24' fill-rule='evenodd'/%3E%3C/svg%3E");
+        width: 400px;
+   
+        color: white;
+    }
+    .text{
+        padding-left: 20px;
+     
+    }
+    .ruler{
+        width:40px ;
+         margin-left: 1px;
+          margin-top: 100px; 
+    }
+    .service{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .boxs{
+        border: 1px solid gray;
+        width: 280px;
+        height: 70px;
+        background-color:white ;
+        margin-top: 30px;
+
+    }
+    .s-img{
+        border:1px solid  gray; background-color: #f5f5f5; width:50px ; margin:10px ;
+    }
+   .text-img{
+    justify-content: center; padding-left:90px ; font-weight: bold; margin-top: -50px;
+   }
+</style>
+
+<body>
+<div class="container">
+    <div>
+        <img src="Screenshot 2022-07-27 225435.png" alt="" style="width: 700px; height: 575px;">
+    </div>
+    <div class="r-col">
+        <div>
+            <img src="Screenshot 2022-07-27 225517.png" alt="" style="width: 400px; " >
+        </div>
+         <div class="b-box">
+            <div class="text"><h1> Orange Extra</h1>
+            <p>Enjoy the ulitimate experience of lifestyle & leisure with your Orange internet subscription</p>
+            <hr class="ruler">
+            <p> Explore More</p></div>
+         </div>
+         <div class="g-box">
+            <div class="text"><h1>Smart life</h1>
+            <p>Wide selection of smart lifr devices to make your life easier from orange</p>
+        <hr class="ruler">
+       <p> Explore More</p></div>
+        </div>
+         <div>
+             <img src="Screenshot 2022-07-27 225546.png" alt="" style="width: 400px;">
+         </div>
+    </div></div>
+    <div class="service">
+        <div class="boxs" style="background-color:#ff7900 ;"><img src="phone.svg" alt="" class="s-img" style="border: 1px solid #ffcc04 ; background-color:#ff912e ;"> <p class="text-img" >Mobile Offers</p></div>
+        <div class="boxs">  <img src="globe2.svg" alt="" class="s-img"><p class="text-img"> Internet Offers</p></div>
+        <div class="boxs"><img src="smartwatch.svg" alt="" class="s-img"></i><p class="text-img"> Devices</p></div>
+        <div class="boxs"><img src="airplane-fill.svg" alt="" class="s-img"><p class="text-img">international & Roaming</p> </div>
+        <div class="boxs"> <img src="telephone.svg" alt="" class="s-img"> <p class="text-img"> Fixed Lines</p></div>
+    
+</div>
