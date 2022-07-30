@@ -1,0 +1,73 @@
+        <table>
+            <tr>
+                <th> <img src="grip-lines-solid.svg" alt="" style="width: 15px;"> &nbsp All deparments</th>
+            </tr>
+            <tr>
+                <td>Fresh Meat</td>
+
+            </tr>
+            <tr>
+                <td>Vegetables</td>
+
+            </tr>
+            <tr>
+                <td>Fruit & Nut Gifts</td>
+
+            </tr>
+            <tr>
+                <td>Fresh Berries</td>
+
+            </tr>
+            <tr>
+                <td>Ocean Foods</td>
+
+            </tr>
+            <tr>
+                <td>Butter & Eggs</td>
+
+            </tr>
+            </tr>
+            <tr>
+                <td>Fastfood</td>
+
+            </tr>
+            <tr>
+                <td>Fresh Onion</td>
+
+            </tr>
+            <tr>
+                <td>Papayaya & Crisps</td>
+
+            </tr>
+            <tr>
+                <td>Oatmeal</td>
+
+            </tr>
+            <tr>
+                <td>Papayaya & Crisps</td>
+
+            </tr>
+            <tr>
+                <td>Oatmeal</td>
+
+            </tr>
+        </table>
+
+<style></style>
+        
+table {
+    border: 1px solid rgb(220, 212, 212);
+    width: 300px;
+}
+
+th {
+    height: 30px;
+    background-color: #7fad39;
+    color: white;
+}
+
+td {
+    padding-left: 20px;
+    padding-top: 14px;
+
+}
